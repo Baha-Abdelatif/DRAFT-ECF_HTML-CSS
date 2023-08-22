@@ -1,0 +1,53 @@
+/* Variables globales du site */
+
+$black: #1d1e22ff;
+$brown: #5e3c24;
+$beige: #f3e2c6;
+$ocre: #e88c4e;
+$white: #fffafaff;
+
+$font-xxl: 5rem;
+$font-xl: 3rem;
+$font-l: 2.5rem;
+$font-m: 2rem;
+$font-xm: 1.5rem;
+$font-s: 1.25rem;
+$font-xs: 1rem;
+$font-micro: 0.125rem;
+
+$global-vh: 10vh;
+
+$grid-breakpoints: (
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// mixin pour éviter de répéter les règles du quick-flex
+@mixin quick-flex($direction, $alignment, $justify, $gap: $font-desktop-xs) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $alignment;
+  gap: $gap;
+}
+
+// General Styles
+html,
+body {
+  // Style ajouté pour résoudre le bug de scroll horizontal sur smartphones
+  overflow-x: hidden;
+  position: relative;
+}
+body {
+  color: $white;
+  font-size: 62.5%;
+  line-height: 1.1;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
