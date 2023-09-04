@@ -138,4 +138,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.carousel-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+.carousel-img__slide-1 {
+  background-image: url(../assets/img/Slide_1-small.png);
+}
+.carousel-img__slide-2 {
+  background-image: url(../assets/img/Slide_2-small.png);
+}
+.carousel-img__slide-3 {
+  background-image: url(../assets/img/Slide_3-small.png);
 }/*# sourceMappingURL=styles.css.map */
