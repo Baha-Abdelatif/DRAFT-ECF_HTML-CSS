@@ -1,0 +1,15 @@
+.carousel-img {
+  &__slide-1 {
+    background-image: url(../assets/img/Slide_1-small.png);
+  }
+  &__slide-2 {
+    background-image: url(../assets/img/Slide_2-small.png);
+  }
+  &__slide-3 {
+    background-image: url(../assets/img/Slide_3-small.png);
+  }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
