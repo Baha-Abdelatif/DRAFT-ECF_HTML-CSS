@@ -140,6 +140,10 @@ body {
   box-sizing: border-box;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .carousel-img {
   background-position: center;
   background-repeat: no-repeat;
