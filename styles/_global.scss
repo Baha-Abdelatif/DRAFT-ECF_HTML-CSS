@@ -1,20 +1,5 @@
 /* Variables globales du site */
 
-$black: #1d1e22ff;
-$brown: #5e3c24;
-$beige: #f3e2c6;
-$ocre: #e88c4e;
-$white: #fffafaff;
-
-$font-xxl: 5rem;
-$font-xl: 3rem;
-$font-l: 2.5rem;
-$font-m: 2rem;
-$font-xm: 1.5rem;
-$font-s: 1.25rem;
-$font-xs: 1rem;
-$font-micro: 0.125rem;
-
 $global-vh: 10vh;
 
 $grid-breakpoints: (
@@ -54,3 +39,8 @@ body {
 .text-justify {
   text-align: justify;
 }
+// .bi {
+//   display: block;
+//   width: 25px;
+//   height: 25px;
+// }
